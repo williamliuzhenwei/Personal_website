@@ -1,0 +1,32 @@
+body{
+  background-color: grey;
+}
+
+/* h1{
+  color: white;
+} */
+
+.white_color{
+  padding-left: 80px;
+  padding-top: 50px;
+  color:white;
+}
+
+.body_white_color{
+  padding-left: 40px;
+  padding-top: 50px;
+  color:white;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}

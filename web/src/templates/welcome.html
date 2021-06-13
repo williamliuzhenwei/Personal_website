@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="agile.css">
+    <script type = "text/javascript" src="website.js"></script>
+    <!-- Page Info -->
+    <title>Welcome</title>
+  </head>
+
+  <body>
+    <button onclick="location.href = '/';" id="myButton" class="large button" >Home</button>
+  </div>
+    <div class = "white_color">
+      <h1> &nbsp;&nbsp;&nbsp;&nbsp;Zhenwei's home page</h1>
+    </div>
+
+    <div class = "body_white_color">
+      <h2>&emsp;&emsp;&emsp;&emsp;My Name is Zhenwei Liu. </h2>
+      <h2>&emsp;&emsp;&emsp;&emsp;More Coming Up!</h2>
+    </div>
+
+    
+    
+    <form id="personal" action = "">
+      
+      <label for="firstName"> &emsp;&emsp;&emsp;First name:</label><br>
+      &emsp;&emsp;&emsp;<input type="text" id="firstN" name="firstName"><br>
+
+      <label for="lastName">&emsp;&emsp;&emsp;Last name:</label><br>
+      &emsp;&emsp;&emsp;<input type="text" id="lastN" name="lastName"><br>
+
+      <label for="email">&emsp;&emsp;&emsp;Email:</label><br>
+      &emsp;&emsp;&emsp;<input type="text" id="email" name="email"><br>
+
+      <label for="userName">&emsp;&emsp;&emsp;Comment:</label><br>
+      &emsp;&emsp;&emsp;<input type="text" id="comment" name="comment"><br>
+
+      <br>&emsp;&emsp;&emsp;<input type="submit" value = "submit" id="button" onclick="myFunction()"><br>
+  </form>
+
+  <table>
+    <thead>
+        <tr>
+            <th>&emsp;&emsp;&emsp;First Name</th>
+            <th>&emsp;&emsp;&emsp;Last Name</th>
+            <th>&emsp;&emsp;&emsp;Email Address</th>
+            <th>&emsp;&emsp;&emsp;Comment</th>
+        
+        </tr>
+    </thead>
+    <tbody>
+        {% for user in users %}
+            <td>&emsp;&emsp;&emsp;{{user[0]}}</td>
+            <td>&emsp;&emsp;&emsp;{{user[1]}}</td>
+            <td>&emsp;&emsp;&emsp;{{user[2]}}</td>
+            <td>&emsp;&emsp;&emsp;{{user[3]}}</td>
+            </td>   
+        </tr>
+        {% endfor %}
+    </tbody>
+    
+</table>
+
+<script>
+    function myFunction() {
+      alert("Thank you for visiting");
+    }
+    </script>
+  </body>
+
+</html>

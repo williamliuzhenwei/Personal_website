@@ -1,0 +1,58 @@
+* { margin: 0; padding: 0; }
+html{
+  height: 100%;
+  margin: auto;
+  overflow: scroll;
+}
+body { color: #888; font: 16px Monaco; line-height: 1.7; background: #000; }
+:focus { outline: 0; }
+a:focus { outline: none; }
+a, a:hover, a:focus { text-decoration: none; cursor: pointer; display: block; }
+ol, ul, li { list-style: none; }
+
+h1, .h1{font-size: 50px;font-family: Monaco; font-weight: 100; margin-top: 0; margin-bottom: 0; 
+}
+h2, .h2{font-size: 30px;font-family: Monaco; font-weight: 100; margin-top: 0; margin-bottom: 0; 
+}
+h3, .h3{font-size: 25px;font-family: Monaco; font-weight: 100; margin-top: 0; margin-bottom: 0; 
+}
+ h4, .h4, .lead { font-family: Monaco; font-weight: 100; margin-top: 0; margin-bottom: 0; }
+.container { width: 1200px; padding-left: 0; padding-right: 0; position: relative; }
+a { color: #666; }
+
+.centered {
+  text-align:center;
+}
+
+header { position: fixed; left: 0; top: 0; width: 100%; z-index: 1000; }
+header ul { margin-bottom: 0; }
+.inner { margin: 0 auto; overflow: hidden; zoom: 1; padding: 20px 40px; }
+
+header ul { float: right; list-style-type: none;  }
+header ul li { float: left; margin-left: 5px; }
+header ul a { float: left; color: #cecece; text-decoration: none; height: 50px; line-height: 50px; padding: 0 20px; letter-spacing: 3px; text-indent: 3px; text-transform: uppercase;}
+header ul a:hover { color: #e8102f; }
+
+.resume-wrap section .container{ width: 800px; position: relative;}
+.resume-wrap section .inner{ padding-top: 120px; padding-bottom: 120px; text-align:center;}
+
+#base{ background: #18181a;}
+#base .inner .container{ width: 800px;}
+#base .me{ padding-top: 200px; padding-bottom: 200px; height: 900px;}
+#base .me .container{ width: 800px; }
+
+#base .me p{ padding-top:280px; }
+#base .me i{color: #333; padding-right: 8px;}
+
+.button {
+    width: 180px;
+    height: 60px;
+    position: center;
+    background: #202323;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    text-align: center;
+    color: #888;
+    font-size:18px;
+    font-family: Monaco;
+  }
